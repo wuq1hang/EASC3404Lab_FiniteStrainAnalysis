@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="371.9025"
+   height="222.66098"
+   viewBox="0 0 371.90249 222.66097"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="simple_shear.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="0.7124101"
+     inkscape:cx="-25.968189"
+     inkscape:cy="-0.70184294"
+     inkscape:window-width="1878"
+     inkscape:window-height="1022"
+     inkscape:window-x="1940"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker26"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path26" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker23"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path23" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path22" />
+    </marker>
+    <marker
+       id="arrow"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 7,3 0,6 Z"
+         fill="#333333"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrowBlue"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="3"
+       orient="auto">
+      <path
+         d="M 0,0 7,3 0,6 Z"
+         fill="#1f77b4"
+         id="path2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker26-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path26-9" />
+    </marker>
+  </defs>
+  <style
+     id="style2">
+    .label {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      fill: #222;
+    }
+
+    .small {
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      fill: #333;
+    }
+
+    .formula {
+      font-family: Arial, sans-serif;
+      font-size: 23px;
+      fill: #222;
+      font-style: italic;
+    }
+
+    .original {
+      fill: none;
+      stroke: #999;
+      stroke-width: 1.1;
+      stroke-dasharray: 6 5;
+    }
+
+    .sheared {
+      fill: #1f77b4;
+      fill-opacity: 0.12;
+      stroke: #1f77b4;
+      stroke-width: 1.4;
+    }
+
+    .guide {
+      stroke: #777;
+      stroke-width: 0.8;
+      stroke-dasharray: 4 4;
+    }
+
+    .axis {
+      stroke: #000;
+      stroke-width: 1.2;
+      marker-end: url(#arrow);
+    }
+
+    .dim {
+      stroke: #333;
+      stroke-width: 0.9;
+      marker-start: url(#arrow);
+      marker-end: url(#arrow);
+    }
+
+    .theta {
+      stroke: #d62728;
+      stroke-width: 1.2;
+      fill: none;
+    }
+
+    .highlight {
+      stroke: #d62728;
+      stroke-width: 1.2;
+    }
+
+    .tick {
+      stroke: #000;
+      stroke-width: 0.9;
+    }
+  </style>
+  <!--
+    Cartesian origin at bottom-left corner of original square.
+    Original square side length = 1.0
+    Drawing scale: 1.0 unit = 140 px
+    Shear displacement shown: Δx = 0.5
+    Therefore γ = Δx / 1.0 = 0.5 = tan(θ)
+  -->
+  <!-- Cartesian coordinate axes -->
+  <line
+     x1="106.09207"
+     y1="203.61371"
+     x2="306.96106"
+     y2="203.61371"
+     class="axis"
+     id="line2" />
+  <line
+     x1="106.09207"
+     y1="203.61371"
+     x2="106.09207"
+     y2="8.6137123"
+     class="axis"
+     id="line3" />
+  <text
+     x="312.09207"
+     y="209.61371"
+     class="label"
+     id="text3">x</text>
+  <text
+     x="96.526154"
+     y="9.3339844"
+     class="label"
+     id="text4">y</text>
+  <text
+     x="89.29969"
+     y="217.19186"
+     class="label"
+     id="text5" />
+  <!-- Original square, side length 1.0 -->
+  <rect
+     x="106.09207"
+     y="63.613712"
+     width="140"
+     height="140"
+     class="original"
+     id="rect5"
+     style="stroke:#000000;stroke-dasharray:none" />
+  <!-- Sheared parallelogram -->
+  <polygon
+     points="180,110 110,250 250,250 320,110 "
+     class="sheared"
+     id="polygon6"
+     style="stroke-dasharray:1.4, 1.4;stroke-dashoffset:0"
+     transform="matrix(-1,0,0,1,356.03052,-46.386289)" />
+  <!-- Coordinate labels -->
+  <text
+     x="242.03123"
+     y="222.66098"
+     class="small"
+     id="text8">1</text>
+  <text
+     x="93.771271"
+     y="67.541824"
+     class="small"
+     id="text9">1</text>
+  <!-- Tick marks at x = 1.0 and y = 1.0 -->
+  <line
+     x1="246.09207"
+     y1="198.61371"
+     x2="246.09207"
+     y2="208.61371"
+     class="tick"
+     id="line9" />
+  <line
+     x1="101.09207"
+     y1="63.613712"
+     x2="111.09207"
+     y2="63.613712"
+     class="tick"
+     id="line10" />
+  <!-- Side length label: 1.0 -->
+  <!-- Top shear displacement Δx -->
+  <line
+     x1="36.092064"
+     y1="63.613712"
+     x2="36.092064"
+     y2="29.613712"
+     class="guide"
+     id="line13"
+     style="stroke-dasharray:none" />
+  <line
+     x1="106.09207"
+     y1="63.613712"
+     x2="106.09207"
+     y2="29.613712"
+     class="guide"
+     id="line14"
+     style="stroke-dasharray:none" />
+  <text
+     x="53.399681"
+     y="51.596561"
+     class="label"
+     id="text14"
+     style="fill:#777777;fill-opacity:1">tan<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic'"
+   id="tspan23">θ</tspan></text>
+  <!-- Label Δx = γ because side length is 1.0 -->
+  <!-- Shear angle theta between original vertical side and sheared side -->
+  <path
+     d="m 105.54043,156.71296 a 45,45 0 0 0 -20.100003,4.8"
+     class="theta"
+     id="path15" />
+  <text
+     x="90.346664"
+     y="152.87254"
+     class="label"
+     fill="#d62728"
+     id="text16"
+     style="fill:#d62728;fill-opacity:1">θ</text>
+  <!-- Shear direction arrow -->
+  <!-- Formula labels -->
+  <!-- Origin marker -->
+  <circle
+     cx="106.09207"
+     cy="203.61371"
+     r="3"
+     fill="#000000"
+     id="circle20" />
+  <path
+     style="fill:#777777;fill-opacity:1;stroke:#777777;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker23)"
+     d="M 51.740675,45.127811 H 37.035165"
+     id="path20"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#777777;fill-opacity:1;stroke:#777777;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#ArrowWide)"
+     d="M 90.603045,45.127811 H 105.13115"
+     id="path21"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 204.55239,54.508137 h -65.79871 l 19.6516,-7.36354"
+     id="path24" />
+  <text
+     x="292.93277"
+     y="59.619999"
+     class="small"
+     id="text6">undeformed</text>
+  <text
+     x="-0.51269531"
+     y="180.58313"
+     class="small"
+     id="text6-0"
+     style="font-size:15px;font-family:Arial, sans-serif;fill:#1f77b4;fill-opacity:1">deformed</text>
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker26)"
+     d="m 247.62861,83.695371 c 0,0 8.78428,-4.02615 13.69166,-6.53593 16.21612,-8.29337 -3.12311,-5.05746 4.67207,-10.10405 2.21201,-1.43205 6.39293,-3.51908 10.46684,-5.04662 6.85606,-2.57071 12.78182,-5.76292 12.78182,-5.76292"
+     id="path25"
+     sodipodi:nodetypes="csssc" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#1f77b4;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.992157;marker-start:url(#marker26-8)"
+     d="m 71.030523,133.61371 c 0,0 -8.784279,4.02615 -13.691659,6.53593 -16.21612,8.29337 3.12311,5.05746 -4.67207,10.10405 -2.21201,1.43205 -6.39293,3.51908 -10.46684,5.04662 -6.85606,2.57071 -12.78182,5.76292 -12.78182,5.76292"
+     id="path25-6"
+     sodipodi:nodetypes="csssc" />
+  <text
+     xml:space="preserve"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Arial;-inkscape-font-specification:'Arial Italic';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1f77b4;fill-opacity:1;stroke:#1f77b4;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.992157"
+     x="97.083603"
+     y="220.90996"
+     id="text26"><tspan
+       sodipodi:role="line"
+       id="tspan26"
+       x="97.083603"
+       y="220.90996"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:none">O</tspan></text>
+</svg>

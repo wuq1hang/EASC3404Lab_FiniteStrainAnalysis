@@ -38,11 +38,8 @@
 
 
 % Lab instructions
-\section*{Instructions}
-We will discuss the solutions to Question 1 and 2 in class. Question 3 
-
-\section*{Question 1}
-We have derived the deformation gradient tensor $\bm{F}$ for the pure shear deformation in class.
+\section*{Question 1 (in class)}
+We have derived the $\bm{F}$ matrix for the pure shear deformation in class.
 Now derive the $\bm{F}$ for sinistral simple shear deformation with a shear strain of $\gamma = \tan\theta$.
 Show your reasoning. 
 The following diagram of sinistral simple shear deformation is provided to you as a reference:
@@ -53,10 +50,10 @@ The following diagram of sinistral simple shear deformation is provided to you a
 
 
 
-\section*{Question 2}
+\section*{Question 2 (in class)}
 Rerun the \texttt{finite\_strain\_analysis.ipynb} with your derived $\bm{F}$ for 
-the sinistral simple shear deformation with increasing shear strain, 
-$\theta = $ \SI{30}{\degree} and \SI{60}{\degree}.
+the sinistral simple shear with increasing shear strain, 
+from $\theta = $ \SI{30}{\degree} to \SI{60}{\degree}. 
 Show figure outputs from the \texttt{Jupyter} notebook and briefly explain:
 \begin{enumerate}
   \item Why simple shear deformation is considered as \emph{non-axial}?
@@ -69,10 +66,10 @@ Show figure outputs from the \texttt{Jupyter} notebook and briefly explain:
 
 \section*{Question 3}
 The following figure displays a narrow shear zone developed in a magmatic rock.
-Now let's do some ``forward modelling on a virtual piece of rock sample.
-Plug the $\bm{F}$ you computed into \texttt{homogeneous\_strain.ipynb}. 
-Experiment with different $\gamma$ values, can the modelled strain ellipsoids 
-produce the similar deformation pattern as the shear zone in the figure?
+Now let's do some ``forward modelling'' on a virtual piece of rock sample.
+Plug the $\bm{F}$ you computed in Question 1 into \texttt{homogeneous\_strain.ipynb}. 
+Experiment with different shear strain ($\gamma$) values, do the modelled strain ellipsoids 
+produce the similar deformation pattern as the natural shear zone in the figure?
 \begin{figure}[hbpt!]
   \includegraphics[width=\linewidth]{shear_zone_field_photo.pdf}
 \end{figure}
@@ -85,17 +82,17 @@ produce the similar deformation pattern as the shear zone in the figure?
 \end{figure}
 \begin{enumerate}
   \item Create two shear strain profiles, A and B, across the shear zone. 
-    On transparent paper, mark at least 8 oblique fabrics along each profile and 
+    On the transparent paper, mark at least 8 oblique fabrics along each profile and 
     measure the angles ($\beta$) between the foliation and the shear zone boundary.
     Record the position and $\beta$ angle of the measurements.
   \item Average the measurements along both profiles and input the values into 
-    the notebook file \texttt{heterogeneous\_strain.ipynb} to 
-    construct a spatially varying shear strain $\gamma$.
+    the notebook file \texttt{heterogeneous\_strain.ipynb} 
+    to construct a spatially varying shear strain $\gamma$ profile.
     The $\beta$ values has the following relationship with the shear strain $\gamma$:
     $\gamma = \sfrac{2}{\tan 2\beta}$ and is already implemented for you in the notebook.
   \item Compute the overall displacement $d$ (\unit{\cm}) of the shear zone along each profile
     using the following relationship: $d = \int_{-2}^{2} \gamma d\gamma$. \\
-    (Hint: consider using \texttt{scipy.integrate.simpson} )
+    (Hint: consider using the function \texttt{scipy.integrate.simpson} )
   \item Show the modelled deformation pattern from the figure. 
     Is it more realistic than the previous model? 
     What does that tell you about the strain distribution within the shear zone?
